@@ -10,7 +10,7 @@ const App = () => {
   const showStoredValue = useSelector(state=>state.data.showStoredValue)
 
   return (
-    <div className="App">
+    <div className="Apps">
       {showStoredValue && <small>
         {storedDisplay}
       </small>}
